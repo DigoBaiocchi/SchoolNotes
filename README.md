@@ -36,4 +36,4 @@ This app will use the stack bun, react, css, postgres
 
 - /api/topics -> Delete all the topics
 - /api/topics/:id -> Delete a topic
-- /api/topics/:id/subTopics -> Delete all sub-topics of a topic
+- /api/topics/:parentId/subTopics -> Delete all sub-topics of a topic
